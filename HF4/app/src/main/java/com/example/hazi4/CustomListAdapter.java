@@ -40,8 +40,8 @@ public CustomListAdapter(Activity context,Integer[] imageIDarray, String[] count
         ImageView imageView = rowView.findViewById(R.id.imageView);
         TextView countryCurrency1 = rowView.findViewById(R.id.textView);
         TextView currencyDescription1 = rowView.findViewById(R.id.textView2);
-        TextView buying1 = rowView.findViewById(R.id.cumpara);
-        TextView selling1 = rowView.findViewById(R.id.vinde);
+        TextView buying1 = rowView.findViewById(R.id.cumparaprice);
+        TextView selling1 = rowView.findViewById(R.id.vindeprice);
 
         imageView.setImageResource(imageIDarray[position]);
         countryCurrency1.setText(countryCurrency[position]);
